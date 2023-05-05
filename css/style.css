@@ -355,7 +355,7 @@ ul {
         flex-direction: column-reverse;
     }
     .header-logo {
-        margin-bottom: 106px;
+        margin-bottom: 66px;
     }
     .burger-menu-label {
         display: flex;
@@ -437,6 +437,9 @@ ul {
         transform: rotate(40deg);
         background-color: #828282;
       }
+      .header-aboutMe {
+        margin-bottom: 97px;
+      }
       .header-aboutMe-title {
         font-size: 48px;
         line-height: 44px;
@@ -446,6 +449,15 @@ ul {
       }
       .certificates-content {
         grid-template-columns: repeat(1, minmax(30%, 500px));
+      }
+      .certificates__title, .project__title {
+        margin-top: 95px;
+      }
+      .project {
+        border-top: 1px solid #E5E7EB;
+      }
+      .project__title {
+        padding-top: 0;
       }
       .project-img {
         height: 243px;
