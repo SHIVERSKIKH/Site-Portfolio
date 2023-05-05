@@ -24,7 +24,7 @@ ul {
 .header-logo {
     width: 62px;
     height: 62px;
-    background-image: url(../img/logo.png);
+    background-image: url(./img/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 87px;
@@ -199,22 +199,22 @@ ul {
     margin-bottom: 11px;
 }
 .cert_one {
-    background-image: url(../img/sert-001.png);
+    background-image: url(./img/sert-001.png);
 }
 .cert-inter {
-    background-image: url(../img/sert-003.png);
+    background-image: url(./img/sert-003.png);
 }
 .cert_html {
-    background-image: url(../img/sert-004.png);
+    background-image: url(./img/sert-004.png);
 }
 .cert-c {
-    background-image: url(../img/sert-002.png);
+    background-image: url(./img/sert-002.png);
 }
 .java_script {
-    background-image: url(../img/sert-005.png);
+    background-image: url(./img/sert-005.png);
 }
 .git {
-    background-image: url(../img/sert-006.png);
+    background-image: url(./img/sert-006.png);
 }
 .certificates-content-txt {
     font-weight: 400;
