@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/png+xml">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Личный сайт</title>
 </head>
 <body>
-   <header id="top-page" class="header center">
-   <section class="header-top">
-    <div class="header-logo"></div>
-    <input id="burger-menu" type="checkbox" wfd-id="id0">
-    <label class="burger-menu-label position" for="burger-menu">
-        <span></span>
-    </label>
-    <nav class="header-menu">
-        <ul class="header-menu__list">
-            <li class="header-menu__item"><a href="#001">Home</a></li>
-            <li class="header-menu__item"><a href="#002">Hard skills</a></li>
-            <li class="header-menu__item"><a href="#003">
-                Certificates</a></li>
-            <li class="header-menu__item"><a href="#004">Project</a></li>
-            <li class="header-menu__item"><a href="#005">Contacts</a></li>
-        </ul>
-    </nav>
-   </section>
-   <section id="001" class="header-aboutMe">
-    <div class="header-aboutMe__info">
-        <div class="decorat-elem-wrp">
-            <div class="header-aboutMe-decorat_elem"></div>
-            <p class="header-aboutMe-name">Екатерина Шиверских</p>
-        </div>
-        <h1 class="header-aboutMe-title">Frontend разработчик</h1>
-        <p class="header-aboutMe-txt">Привет! Меня зовут Екатерина! Я&nbsp;выпускница онлайн школы GeekBrains! Закончила курс по&nbsp;специальности Frontend-Разработчик! Мой опыт в&nbsp;данной сфере более 3-х месяцев, за&nbsp;этот период мною выполненны 3&nbsp;проекта в&nbsp;целях учебной разработки. В&nbsp;свое свободное время я&nbsp;люблю верстать интересные макеты и&nbsp;постоянно совершенствую свои знания.</p>
-        <a class="btn-write" href="https://t.me/Shiverskikh" target="_blank">Напишите мне</a>
-    </div>
-    <div class="header-aboutMe__photo"><img class="header__img" src="img/me_photo.jpeg" alt="my-photo"></div>
-   </section>
-   </header>
+   <div class="header-wrp">
+    <header id="top-page" class="header center">
+        <section class="header-top">
+         <div class="header-logo"></div>
+         <input id="burger-menu" type="checkbox" wfd-id="id0">
+         <label class="burger-menu-label position" for="burger-menu">
+             <span></span>
+         </label>
+         <nav class="header-menu">
+             <ul class="header-menu__list">
+                 <li class="header-menu__item"><a href="#001">Home</a></li>
+                 <li class="header-menu__item"><a href="#002">Hard skills</a></li>
+                 <li class="header-menu__item"><a href="#003">
+                     Certificates</a></li>
+                 <li class="header-menu__item"><a href="#004">Project</a></li>
+                 <li class="header-menu__item"><a href="#005">Contacts</a></li>
+             </ul>
+         </nav>
+        </section>
+        <section id="001" class="header-aboutMe">
+         <div class="header-aboutMe__info">
+             <div class="decorat-elem-wrp">
+                 <div class="header-aboutMe-decorat_elem"></div>
+                 <p class="header-aboutMe-name">Екатерина Шиверских</p>
+             </div>
+             <h1 class="header-aboutMe-title">Frontend разработчик</h1>
+             <p class="header-aboutMe-txt">Привет! Меня зовут Екатерина! Я&nbsp;выпускница онлайн школы GeekBrains! Закончила курс по&nbsp;специальности Frontend-Разработчик! Мой опыт в&nbsp;данной сфере более 3-х месяцев, за&nbsp;этот период мною выполненны 3&nbsp;проекта в&nbsp;целях учебной разработки. В&nbsp;свое свободное время я&nbsp;люблю верстать интересные макеты и&nbsp;постоянно совершенствую свои знания.</p>
+             <a class="btn-write" href="https://t.me/Shiverskikh" target="_blank">Напишите мне</a>
+         </div>
+         <div class="header-aboutMe__photo"><img class="header__img" src="img/me_photo.jpeg" alt="my-photo"></div>
+        </section>
+        </header>
+   </div>
    <main class="main">
     <div id="002" class="main-hard__skills-wrp">
     <div class="main-hard-skills center">
@@ -150,7 +154,7 @@
         <h2 class="project__title">Project</h2>
       <article class="project__content">
         <img class="project-img" src="img/project-1.png" alt="project-one" height="500">
-        <span class="text-decor"><p class="project__txt">Analitics: Ссылка на проект:<a class="project-link" href="#" target="_blank">GitHab</a></p></span>
+        <span class="text-decor"><p class="project__txt">Analitics: Ссылка на проект:<a class="project-link" href="https://github.com/SHIVERSKIKH/Analytics_project" target="_blank">GitHab</a></p></span>
       </article>
       <article class="project__content">
         <img class="project-img" src="img/project-2.png" alt="project-two"  height="500">

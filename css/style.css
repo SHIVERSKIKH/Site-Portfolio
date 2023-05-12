@@ -17,6 +17,15 @@ ul {
     width: 100%;
     margin: 0 auto;
 }
+.header-wrp {
+    background: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.header {
+    padding-bottom: 140px;
+}
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -60,7 +69,6 @@ ul {
 .header-aboutMe {
     display: flex;
     gap: 80px;
-    margin-bottom: 197px;
 }
 .header-aboutMe__info {
     padding-bottom: 20px;
@@ -131,7 +139,7 @@ ul {
     min-height: 525px;
 }
 .main-hard__skills-wrp {
-    background: #EEF2FF;
+    background: #b7c9dc 41%;
     padding-bottom: 112px;
 }
 .main-hard-skills-title{
@@ -255,7 +263,7 @@ ul {
     text-decoration: underline;
 }
 .footer {
-    background:#EEF2FF;
+    background: #b7c9dc 41%;
     padding-bottom: 76px;
 }
 .contacts {
