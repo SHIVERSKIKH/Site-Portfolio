@@ -224,10 +224,13 @@ ul {
 .git {
     background-image: url(../img/sert-006.png);
 }
+.itog {
+    background-image: url(../img/sert-007.png);
+}
 .certificates-content-txt {
     font-weight: 400;
     font-size: 18px;
-    line-height: 16px;
+    line-height: 23px;
     color: #6B7280;
     text-align: center;
 }
