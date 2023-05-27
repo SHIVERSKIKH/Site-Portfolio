@@ -20,7 +20,6 @@ ul {
 .header-wrp {
     background: url(../img/fon.png);
     background-repeat: no-repeat;
-    background-position: bottom;
     background-size: contain;
 }
 .header {
@@ -55,13 +54,15 @@ ul {
     padding-bottom: 10px;
 }
 .header-menu__item > a {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    color: #6B7280;
+    color: black;
+    text-shadow: 1px 1px 2px #b8bdc9;
+   
 }
 .header-menu__item > a:hover {
-    color: #000000;
+    color: #ffffff;
 }
 .header-menu__item > a:active {
     color: #6B7280;
@@ -81,15 +82,16 @@ ul {
 .header-aboutMe-decorat_elem {
     width: 102px;
     height: 1px;
-    background: #4338CA;
+    background: #ffffff;
     margin-top: 14px;
 }
 .header-aboutMe-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    color: #4338CA;
+    color: #ffffff;
     margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #6B7280;
 }
 .header-aboutMe-title {
     max-width: 596px;
@@ -97,8 +99,9 @@ ul {
     font-weight: 700;
     font-size: 72px;
     line-height: 72px;
-    color: #1F2937;
+    color: black;
     margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 .header-aboutMe-txt {
     max-width: 553px;
@@ -106,7 +109,7 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #6B7280;
+    color: #60656e;
     margin-bottom: 40px;
 }
 .btn-write {
@@ -115,7 +118,7 @@ ul {
     max-width: 231px;
     width: 100%;
     min-height: 72px;
-    background: #3730A3;
+    background: #828282;
     border-radius: 6px;
     font-weight: 500;
     font-size: 18px;
@@ -123,6 +126,7 @@ ul {
     color: #FFFFFF;
     align-items: center;
     justify-content: center;
+    box-shadow: 1px 1px 2px #6B7280;
 }
 .btn-write:hover {
     background: #FFFFFF;
@@ -137,9 +141,11 @@ ul {
     max-width: 525px;
     width: 100%;
     min-height: 525px;
+    border-radius: 19px;
+    box-shadow: 1px 1px 2px #6B7280;
 }
 .main-hard__skills-wrp {
-    background: #b7c9dc 41%;
+    background: #b0b6c0 11%;
     padding-bottom: 112px;
 }
 .main-hard-skills-title{
@@ -150,6 +156,7 @@ ul {
     color: #1F2937;
     padding-top: 75px;
     margin-bottom: 45px;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 .hard-skills-content {
     display: flex;
@@ -160,7 +167,7 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #6B7280;
+    color: #60656e;
     margin-bottom: 75px;
     text-align: center;
 }
@@ -269,7 +276,7 @@ ul {
     text-decoration: underline;
 }
 .footer {
-    background: #b7c9dc 41%;
+    background: #b0b6c0 11%;
     padding-bottom: 76px;
 }
 .contacts {
@@ -279,6 +286,8 @@ ul {
 }
 .contacts__title {
     margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #ffffff;
+
 }
 .contacts__txt {
     max-width: 286px;
@@ -296,7 +305,7 @@ ul {
     max-width: 181px;
     width: 100%;
     min-height: 42px;
-    background: #3730A3;
+    background: #828282;;
     border-radius: 6px;
     font-weight: 500;
     font-size: 18px;
@@ -305,6 +314,7 @@ ul {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    box-shadow: 1px 1px 2px #ffffff;
 }
 .contacts-btn:hover {
     background: #FFFFFF;
@@ -364,6 +374,7 @@ ul {
     }
     .header {
         overflow-x: hidden;
+        padding-bottom: 0;
     }
     .header-aboutMe {
         flex-direction: column-reverse;
@@ -405,7 +416,7 @@ ul {
     
       .burger-menu-label span {
         display: block;
-        background-color: #000000;
+        background-color: #FFFFFF;
         height: 4px;
         width: 100%;
       }
@@ -451,12 +462,18 @@ ul {
         transform: rotate(40deg);
         background-color: #828282;
       }
+      .header-aboutMe-decorat_elem {
+        background-color: #60656e;
+      }
       .header-aboutMe {
         margin-bottom: 97px;
       }
       .header-aboutMe-title {
         font-size: 48px;
         line-height: 44px;
+      }
+      .header-aboutMe-name {
+        color: #60656e;
       }
       .hard-skills-content {
         grid-template-columns: repeat(2, minmax(30%, 500px));
