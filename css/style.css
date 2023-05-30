@@ -391,6 +391,9 @@ ul {
     .certificates-content {
         gap:35px;
     }
+    .certificates-content-img {
+        min-height: 200px;
+    }
     .hard-skills-content {
         display: grid;
         grid-template-columns: repeat(3, minmax(30%, 500px));
