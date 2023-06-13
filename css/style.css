@@ -281,7 +281,7 @@ ul {
     text-decoration: underline;
 }
 .slide {
-    margin-bottom: 75px;
+    margin-bottom: 123px;
 }
 .carousel-title {
     font-weight: 600;
@@ -359,6 +359,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 61px;
+    padding-left: 0;
 }
 @media (max-width:1024px) {
     .center {
@@ -410,6 +411,10 @@ ul {
     }
     .header-aboutMe {
         flex-direction: column-reverse;
+        margin-top: 43px;
+    }
+    .header-aboutMe__photo {
+        margin: 0 auto;
     }
     .header-logo {
         margin-bottom: 66px;
