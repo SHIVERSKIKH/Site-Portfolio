@@ -304,6 +304,10 @@ ul {
 .carousel-control-next-icon {
     background-image: url(../img/strela.svg) !important;
 }
+.carousel-item img {
+    max-width: 1180px;
+    width: 100%;
+}
 .footer {
     background: #b0b6c0 11%;
     padding-bottom: 76px;
