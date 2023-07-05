@@ -218,6 +218,9 @@ ul {
     background-size: contain;
     margin-bottom: 11px;
 }
+.certificates-content-item:hover {
+    box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.5);
+}
 .cert_one {
     background-image: url(../img/sert-001.png);
 }
@@ -241,6 +244,9 @@ ul {
 }
 .svid {
     background-image: url(../img/svidet.png);
+}
+.svid_2 {
+    background-image: url(../img/svidet-02.png);
 }
 .certificates-content-txt {
     font-weight: 400;
