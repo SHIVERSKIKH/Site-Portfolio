@@ -477,11 +477,12 @@ ul {
       }
       .header-menu {
         visibility: hidden;
-        width: 322px;
+        width: 100%;
         position: absolute;
         background-color: #ffffff;
         z-index: 0;
-        top: 58px;
+        top: 72px;
+        left: 0;
       }
       .header-menu__list {
         display: flex;
