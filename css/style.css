@@ -17,9 +17,7 @@ ul {
     width: 100%;
     margin: 0 auto;
 }
-.header-wrp {
-    
-}
+
 .header {
     padding-bottom: 140px;
 }
@@ -150,7 +148,7 @@ ul {
     box-shadow: 1px 1px 2px #6B7280;
 }
 .main-hard__skills-wrp {
-    background: #b0b6c0 11%;
+    background: #f6f6f6;
     padding-bottom: 112px;
 }
 .main-hard-skills-title{
@@ -315,7 +313,7 @@ ul {
     width: 100%;
 }
 .footer {
-    background: #b0b6c0 11%;
+    background: #f6f6f6;
     padding-bottom: 76px;
 }
 .contacts {
@@ -368,8 +366,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 61px;
+    gap: 34px;
     padding-left: 0;
+}
+.contacts-link {
+    width: 48px;
+    height: 48px;
+}
+.contacts-link:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0,0,0,.1);
+    transition: all .5s ease;
+    transform: scale(110%);
 }
 @media (max-width:1024px) {
     .center {
