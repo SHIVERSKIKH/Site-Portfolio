@@ -284,33 +284,10 @@ ul {
 .text-decor {
     text-decoration: underline;
 }
-.slide {
-    margin-bottom: 123px;
-}
-.carousel-title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 48px;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 2px 2px 2px #1F2937;
-}
-.carousel-txt {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #6B7280;
-    text-shadow: 2px 2px 2px #1F2937;
-}
-.carousel-control-prev-icon {
-    background-image: url(../img/strela_back.svg) !important;
-}
-.carousel-control-next-icon {
-    background-image: url(../img/strela.svg) !important;
-}
-.carousel-item img {
-    max-width: 1180px;
-    width: 100%;
+
+.single-wrp {
+    max-width: 900px;
+    margin: 20px auto;
 }
 .footer {
     background: #f6f6f6;
@@ -416,6 +393,9 @@ ul {
         display: grid;
         grid-template-columns: repeat(3, minmax(30%, 500px));
         gap: 20px;
+    }
+    .single-wrp {
+        max-width: 664px;
     }
 }
 @media (max-width:767px) {
@@ -552,4 +532,9 @@ ul {
       .project-img {
         height: 243px;
       }
+      .single-wrp {
+        max-width: 300px;
+    }
 }
+
+
