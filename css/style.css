@@ -3,7 +3,10 @@
     padding: 0;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    background-color: #17181c!important;
+    margin: 0;
+    transition: background-color .15s ease-in-out;
+    font-family: 'Inter', sans-serif!important;
     font-style: normal;
 }
 a {
@@ -29,7 +32,7 @@ ul {
     background: url(../img/fon.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
 }
 .header-logo {
     width: 62px;
@@ -50,21 +53,21 @@ ul {
   
 .header-menu__list {
     display: flex;
-    gap: 80px;
-    margin-top: 104px;
+    gap: 70px;
     border-bottom: 1px solid #E5E7EB;
     padding-bottom: 10px;
+    margin-top: 80px;
 }
 .header-menu__item > a {
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    color: black;
+    color: #ffff;
     text-shadow: 1px 1px 2px #b8bdc9;
    
 }
 .header-menu__item > a:hover {
-    color: #ffffff;
+    color: #17181c;
 }
 .header-menu__item > a:active {
     color: #6B7280;
@@ -75,7 +78,7 @@ ul {
     margin-top: 82px;
 }
 .header-aboutMe__info {
-    padding-bottom: 20px;
+    padding-bottom: 68px;
     border-bottom: 1px solid #E5E7EB;
 }
 .decorat-elem-wrp {
@@ -92,7 +95,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    color: #60656e;
+    color: #FFFFFF;
     margin-bottom: 40px;
     text-shadow: 1px 1px 2px #6B7280;
 }
@@ -102,7 +105,7 @@ ul {
     font-weight: 700;
     font-size: 72px;
     line-height: 72px;
-    color: black;
+    color: #FFFFFF;
     margin-bottom: 40px;
     text-shadow: 1px 1px 2px #ffffff;
 }
@@ -112,8 +115,9 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #60656e;
+    color: #ffffff;
     margin-bottom: 40px;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 .btn-write {
     display: flex;
@@ -145,7 +149,7 @@ ul {
     width: 100%;
     min-height: 525px;
     border-radius: 19px;
-    box-shadow: 1px 1px 2px #6B7280;
+    box-shadow: rgb(235 237 241) 0px -2px 20px 2px;
 }
 .main-hard__skills-wrp {
     background: #f6f6f6;
@@ -192,16 +196,18 @@ ul {
     margin-bottom: 25px;
 }
 .certificates {
+    padding-bottom: 40px;
     border-bottom: 1px solid #E5E7EB;
 }
-.certificates__title, .project__title, .contacts__title {
+.certificates__title, .project__title {
     font-weight: 600;
     font-size: 48px;
     line-height: 48px;
     text-align: center;
-    color: #1F2937;
-    margin-top: 132px;
-    margin-bottom: 95px;
+    color: #ffff;
+    text-shadow: 1px 1px 2px #ffffff;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .certificates-content {
     display: grid;
@@ -217,7 +223,7 @@ ul {
     margin-bottom: 11px;
 }
 .certificates-content-item:hover {
-    box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.5);
+    box-shadow: 0px 0px 8px 8px rgb(246 246 246 / 50%);
 }
 .cert_one {
     background-image: url(../img/sert-001.png);
@@ -250,14 +256,12 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #6B7280;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #ffffff;
     text-align: center;
 }
 .project__content {
     text-align: center;
-}
-.project__title {
-    padding-top: 15px;
 }
 .project-img {
     max-width: 936.24px;
@@ -287,13 +291,20 @@ ul {
 
 .single-wrp {
     max-width: 900px;
-    margin: 20px auto;
+    margin: 0 auto;
+}
+.slick-dots {
+    display: none!important;
+}
+.d-block {
+    width: 100%;
 }
 .footer {
     background: #f6f6f6;
     padding-bottom: 76px;
 }
 .contacts {
+    padding-top: 46px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -506,9 +517,6 @@ ul {
       .header-aboutMe-title {
         font-size: 48px;
         line-height: 44px;
-      }
-      .header-aboutMe-name {
-        color: #60656e;
       }
       .hard-skills-content {
         grid-template-columns: repeat(2, minmax(30%, 500px));
