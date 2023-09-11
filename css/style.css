@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    margin-bottom: 0;
+}
 body {
     background-color: #17181c!important;
     margin: 0;
@@ -195,6 +199,17 @@ ul {
     color: #1F2937;
     margin-bottom: 25px;
 }
+.description__title {
+    max-width: 900px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
 .certificates {
     padding-bottom: 40px;
 }
@@ -209,15 +224,16 @@ ul {
     color: #ffff;
     text-shadow: 1px 1px 2px #ffffff;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .certificates-content {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     gap: 40px;
     overflow-x: scroll;
     overflow-y: hidden;
     padding-bottom: 44px;
+    padding-top: 10px;
 }
 .certificates-content::-webkit-scrollbar {
     height: 2px;
@@ -229,8 +245,10 @@ ul {
     width: 1px;
 }
 .certificates-content-item {
+    display: block;
     width: 370px;
-    height: 318px ;
+    height: 318px;
+    transition: 0.3s ease;;
 }
 .certificates-content-img {
     max-width: 370px;
@@ -242,7 +260,8 @@ ul {
     margin-bottom: 11px;
 }
 .certificates-content-item:hover {
-    box-shadow: 0px 0px 8px 8px rgb(246 246 246 / 50%);
+    /* box-shadow: 0px 0px 1px 1px rgb(246 246 246 / 50%); */
+    transform: scale(1.1);
 }
 .cert_one {
     background-image: url(../img/sert-001.png);
@@ -270,6 +289,15 @@ ul {
 }
 .svid_2 {
     background-image: url(../img/svidet-02.png);
+}
+.git-02 {
+    background-image: url(../img/sert-008.png);
+}
+.sert-09{
+    background-image: url(../img/sert-009.png);
+}
+.sert-10{
+    background-image: url(../img/sert-010.png);
 }
 .certificates-content-txt {
     font-weight: 400;
@@ -317,6 +345,7 @@ ul {
 }
 .d-block {
     width: 100%;
+    height: 500px;
 }
 .footer {
     background: #f6f6f6;
@@ -426,6 +455,9 @@ ul {
     }
     .single-wrp {
         max-width: 664px;
+    }
+    .d-block {
+        height: 400px;
     }
 }
 @media (max-width:767px) {
@@ -543,7 +575,7 @@ ul {
         grid-template-columns: repeat(2, minmax(30%, 500px));
       }
       .certificates-content {
-        grid-template-columns: repeat(10, 1fr);
+        grid-template-columns: repeat(100, 1fr);
       }
       .certificates-content-img {
         min-height: 261px;
@@ -553,13 +585,29 @@ ul {
         margin-bottom: 75px;
       }
       .project__title {
+        margin-top: 35px;
         padding-top: 0;
+        margin-bottom: 35px;
+      }
+      .description__title {
+        font-size: 17px;
       }
       .project-img {
         height: 243px;
       }
       .single-wrp {
-        max-width: 300px;
+        max-width: 358px;
+    }
+    .d-block {
+        height: 193px;
+    }
+}
+@media (max-width:400px) {
+    .single-wrp {
+        max-width: 250px;
+    }
+    .d-block {
+        height: 153px;
     }
 }
 
