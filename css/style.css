@@ -604,7 +604,7 @@ ul {
 }
 @media (max-width:400px) {
     .single-wrp {
-        max-width: 250px;
+        max-width: 270px;
     }
     .d-block {
         height: 153px;
