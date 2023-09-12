@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +47,7 @@ ul {
     background: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 87px;
+    margin-top: 78px;
     margin-bottom: 135px;
 }
 .burger-menu-label {
