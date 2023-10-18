@@ -231,7 +231,7 @@ ul {
 }
 .certificates-content {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     gap: 40px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -301,6 +301,9 @@ ul {
 }
 .sert-10{
     background-image: url(../img/sert-010.png);
+}
+.sert-11{
+    background-image: url(../img/sert-011.png);
 }
 .certificates-content-txt {
     font-weight: 400;
