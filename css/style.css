@@ -43,7 +43,7 @@ ul {
 }
 .header-logo {
     width: 62px;
-    height: 62px;
+    height: 40px;
     background: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -487,8 +487,8 @@ ul {
     }
     .burger-menu-label {
         display: flex;
-        width: 33px;
-        height: 19px;
+        width: 36px;
+        height: 26px;
         align-items: center;
         position: relative;
         top: 65px;
