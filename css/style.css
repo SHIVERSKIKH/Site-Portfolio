@@ -26,6 +26,7 @@ ul {
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
+    padding:20px;
 }
 
 .header {
@@ -154,7 +155,6 @@ ul {
 .header__img {
     max-width: 525px;
     width: 100%;
-    min-height: 525px;
     border-radius: 19px;
     box-shadow: rgb(235 237 241) 0px -2px 20px 2px;
 }
@@ -238,18 +238,10 @@ ul {
     padding-bottom: 44px;
     padding-top: 10px;
 }
-.certificates-content::-webkit-scrollbar {
-    height: 2px;
-}
 
-.certificates-content::-webkit-scrollbar-thumb {
-    border-radius: 7px;
-    background-color: #f6f6f6;
-    width: 1px;
-}
 .certificates-content-item {
     display: block;
-    width: 370px;
+    width: 330px;
     height: 318px;
     transition: 0.3s ease;;
 }
@@ -420,6 +412,16 @@ ul {
     transition: all .5s ease;
     transform: scale(110%);
 }
+@media (max-width:1238px) {
+    .center {
+        max-width: 1024px;
+    }
+}
+@media (max-width:1083px) {
+    .center {
+        max-width: 966px;
+    }
+}
 @media (max-width:1024px) {
     .center {
         max-width: 768px;
@@ -431,6 +433,10 @@ ul {
     .header-menu__list {
         gap:40px;
         margin-top: 74px;
+    }
+    .header-aboutMe {
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .header-aboutMe-title {
         font-size: 54px;
@@ -446,7 +452,6 @@ ul {
     }
     .header__img {
         min-height: 320px;
-        width: 320px;
     }
     .certificates-content {
         gap:35px;
@@ -583,9 +588,6 @@ ul {
       .hard-skills-content {
         grid-template-columns: repeat(2, minmax(30%, 500px));
       }
-      .certificates-content {
-        grid-template-columns: repeat(100, 1fr);
-      }
       .certificates-content-img {
         min-height: 261px;
       }
@@ -609,6 +611,9 @@ ul {
     }
     .d-block {
         height: 193px;
+    }
+    .certificates-content-item:hover {
+        transform: none;
     }
 }
 @media (max-width:400px) {
