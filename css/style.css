@@ -484,12 +484,19 @@ ul {
         flex-direction: column-reverse;
         margin-top: 43px;
     }
+    .header-aboutMe-name {
+        max-width: 300px;
+        width: 100%;
+    }
     .header-aboutMe__photo {
         margin: 0 auto;
     }
     .header-logo {
         margin-bottom: 66px;
         z-index: 10;
+    }
+    .header__img {
+        min-height: 300px;
     }
     .burger-menu-label {
         display: flex;
