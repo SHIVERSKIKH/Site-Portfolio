@@ -179,7 +179,7 @@ ul {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 .main-hard-skills_txt {
     font-weight: 400;
@@ -379,6 +379,9 @@ ul {
 @media (max-width:1083px) {
     .center {
         max-width: 966px;
+    }
+    .hard-skills-content {
+        gap:40px;
     }
 }
 @media (max-width:1024px) {
