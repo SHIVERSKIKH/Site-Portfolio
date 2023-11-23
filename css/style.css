@@ -589,6 +589,9 @@ ul {
         max-width: 300px;
         width: 100%;
     }
+    .header-logo {
+        margin-top: 54px;
+    }
     .header-aboutMe__photo {
         margin: 0 auto;
     }
