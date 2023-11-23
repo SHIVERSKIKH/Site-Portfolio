@@ -238,6 +238,9 @@ ul {
     box-shadow: 0 0 15px black;
 }
 .certificates__accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #17181c;
     color: #f6f6f6;
     cursor: pointer;
@@ -417,7 +420,7 @@ ul {
         max-width: 768px;
     }
     .header-logo {
-        margin-top: 60px;
+        margin-top: 73px;
         margin-bottom: 156px;
     }
     .header-menu__list {
@@ -450,24 +453,26 @@ ul {
         height: 400px;
     }
 }
-@media (max-width:767px) {
+@media(max-width:768px) {
     .center {
-        max-width: 343px;
+        max-width: 658px;
     }
-    .header {
-        overflow-x: hidden;
-        padding-bottom: 0;
+    .header-menu__list {
+        gap: 18px;
     }
-    .header-aboutMe {
-        flex-direction: column-reverse;
-        margin-top: 43px;
+    .header-menu__item > a {
+        font-size: 17px;
     }
-    .header-aboutMe-name {
-        max-width: 300px;
-        width: 100%;
+}
+@media(max-width:658px) {
+    .center {
+        max-width: 474px;
     }
-    .header-aboutMe__photo {
-        margin: 0 auto;
+    .header-logo {
+        margin-bottom: 105px;
+    }
+    .header-menu__item > a {
+        font-size: 18px;
     }
     .header-logo {
         margin-bottom: 66px;
@@ -564,6 +569,29 @@ ul {
       .header-aboutMe-decorat_elem {
         background-color: #60656e;
       }
+    .d-block {
+        height: 323px;
+    }
+}
+@media (max-width:500px) {
+    .center {
+        max-width: 343px;
+    }
+    .header {
+        overflow-x: hidden;
+        padding-bottom: 0;
+    }
+    .header-aboutMe {
+        flex-direction: column-reverse;
+        margin-top: 43px;
+    }
+    .header-aboutMe-name {
+        max-width: 300px;
+        width: 100%;
+    }
+    .header-aboutMe__photo {
+        margin: 0 auto;
+    }
       .header-aboutMe {
         margin-bottom: 97px;
       }
