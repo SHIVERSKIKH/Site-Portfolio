@@ -234,12 +234,12 @@ ul {
 }
 .accordion__item {
     position: relative;
-    box-shadow: 0 0 15px rgb(189, 189, 189);
     border-radius: 10px;
+    box-shadow: 0 0 15px black;
 }
 .certificates__accordion {
-    background-color: white;
-    color: #17181c;
+    background-color: #17181c;
+    color: #f6f6f6;
     cursor: pointer;
     padding: 22px;
     max-width: 600px;
@@ -251,7 +251,8 @@ ul {
     transition: 0.4s;
 }
 .certificates__accordion:hover {
-    background-color: #b8bdc9;
+    box-shadow: 0 0 15px rgb(189, 189, 189);
+    transform: scale(1.009);
 }
 .certificates__accordion:after {
     content: '\002B';
@@ -269,12 +270,17 @@ ul {
     flex-direction: column;
     margin: 0 0 10px;
     max-width: 556px;
-    width: 100%;
     padding: 0 22px;
-    background-color: white;
+    background-color: #17181c;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+.panel > a {
+    color:#828282;
+}
+.panel > a:hover {
+    color: #FFFFFF;
 }
 .certificates__title, .project__title {
     font-weight: 600;
