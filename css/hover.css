@@ -1,0 +1,77 @@
+a, button {
+    cursor: pointer;
+}
+@media (hover: hover) {
+
+	a:hover,
+	button:hover {
+		opacity: .7;
+	}
+
+	a:active,
+	button:active {
+		opacity: .3;
+	}
+    .header-menu__item > a:hover {
+        color: #17181c;
+    }
+    .header-menu__item > a:active {
+        color: #6B7280;
+    }
+    .btn-write:hover {
+        background: #FFFFFF;
+        color:#3730A3;
+        border: 1px solid #3730A3;
+    }
+    .btn-write:active {
+        background: #3730A3;
+        color: #FFFFFF;
+    }
+    .certificates__accordion:hover {
+        box-shadow: 0 0 15px rgb(189, 189, 189);
+        transform: scale(1.009);
+    }
+    .certificates__accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: '\2212';
+    }
+    .panel > a:hover {
+        color: #FFFFFF;
+    }
+    .project-link:hover{
+        color:#1F2937;
+    }
+    .contacts-btn:hover {
+        background: #FFFFFF;
+        color:#3730A3;
+        border: 1px solid #3730A3;
+    }
+    .contacts-btn:active {
+        background: #3730A3;
+        color: #FFFFFF;
+    }
+    .burger-menu-label:hover {
+        cursor: pointer;
+    }    
+    .certificates-content-item:hover {
+        transform: none;
+    }
+    .burger-menu-label:hover span {
+        background-color: #828282;
+      }
+    
+    .burger-menu-label:active span {
+        background-color: #e8e8e8;
+      }
+    .contacts-link:hover {
+        box-shadow: 15px 25px 60px -5px rgba(0,0,0,.1);
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
+}

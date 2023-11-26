@@ -1,3 +1,5 @@
+@import url(hover.css);
+
 html {
     scroll-behavior: smooth;
   }
@@ -75,12 +77,6 @@ ul {
     text-shadow: 1px 1px 2px #b8bdc9;
    
 }
-.header-menu__item > a:hover {
-    color: #17181c;
-}
-.header-menu__item > a:active {
-    color: #6B7280;
-}
 .header-aboutMe {
     display: flex;
     gap: 80px;
@@ -143,15 +139,6 @@ ul {
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 2px #6B7280;
-}
-.btn-write:hover {
-    background: #FFFFFF;
-    color:#3730A3;
-    border: 1px solid #3730A3;
-}
-.btn-write:active {
-    background: #3730A3;
-    color: #FFFFFF;
 }
 .header__img {
     max-width: 525px;
@@ -253,21 +240,6 @@ ul {
     font-size: 16px;
     transition: 0.4s;
 }
-.certificates__accordion:hover {
-    box-shadow: 0 0 15px rgb(189, 189, 189);
-    transform: scale(1.009);
-}
-.certificates__accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-.active:after {
-    content: '\2212';
-}
-
 .panel {
     display: flex;
     flex-direction: column;
@@ -281,9 +253,6 @@ ul {
 }
 .panel > a {
     color:#828282;
-}
-.panel > a:hover {
-    color: #FFFFFF;
 }
 .certificates__title, .project__title {
     font-weight: 600;
@@ -316,9 +285,6 @@ ul {
 }
 .project-link {
     color: #4338CA;
-}
-.project-link:hover{
-    color:#1F2937;
 }
 .text-decor {
     text-decoration: underline;
@@ -377,15 +343,6 @@ ul {
     margin-bottom: 50px;
     box-shadow: 1px 1px 2px #ffffff;
 }
-.contacts-btn:hover {
-    background: #FFFFFF;
-    color:#3730A3;
-    border: 1px solid #3730A3;
-}
-.contacts-btn:active {
-    background: #3730A3;
-    color: #FFFFFF;
-}
 .contacts-list {
     display: flex;
     justify-content: center;
@@ -396,11 +353,6 @@ ul {
 .contacts-link {
     width: 48px;
     height: 48px;
-}
-.contacts-link:hover {
-    box-shadow: 15px 25px 60px -5px rgba(0,0,0,.1);
-    transition: all .5s ease;
-    transform: scale(110%);
 }
 @media (max-width:1238px) {
     .center {
@@ -491,9 +443,6 @@ ul {
         right: 0;
         z-index: 1002;
       }
-      .burger-menu-label:hover {
-        cursor: pointer;
-      }
     
       .burger-menu-label span::before,
       .burger-menu-label span::after {
@@ -520,13 +469,6 @@ ul {
         width: 100%;
       }
     
-      .burger-menu-label:hover span {
-        background-color: #828282;
-      }
-    
-      .burger-menu-label:active span {
-        background-color: #e8e8e8;
-      }
       .header-menu {
         visibility: hidden;
         width: 100%;
@@ -626,9 +568,6 @@ ul {
     .d-block {
         height: 193px;
     }
-    .certificates-content-item:hover {
-        transform: none;
-    }
 }
 @media (max-width:400px) {
     .single-wrp {
@@ -638,5 +577,4 @@ ul {
         height: 153px;
     }
 }
-
 
