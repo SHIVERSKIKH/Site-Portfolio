@@ -219,6 +219,10 @@ ul {
     flex-direction: column;
     align-items: center;
 }
+.accordion__wrp > ul {
+    max-width: 800px;
+    width: 100%;
+}
 .accordion__item {
     position: relative;
     border-radius: 10px;
@@ -232,14 +236,15 @@ ul {
     background-color: #17181c;
     color: #f6f6f6;
     cursor: pointer;
-    padding: 22px;
+    padding: 29px;
     max-width: 800px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 17px;
+    font-size: 19px;
     transition: 0.4s;
+    border-radius: 10px;
 }
 .certificates__accordion:after {
     content: '\002B';
@@ -342,7 +347,7 @@ ul {
     box-sizing: border-box;
     max-width: 181px;
     width: 100%;
-    min-height: 42px;
+    min-height: 45px;
     background: #828282;;
     border-radius: 6px;
     font-weight: 500;
