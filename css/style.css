@@ -262,6 +262,7 @@ ul {
     margin: 0 0 10px;
     max-width: 556px;
     padding: 0 22px;
+    border-radius: 10px;
     background-color: #17181c;
     max-height: 0;
     overflow: hidden;
@@ -347,7 +348,7 @@ ul {
     box-sizing: border-box;
     max-width: 181px;
     width: 100%;
-    min-height: 45px;
+    min-height: 55px;
     background: #828282;;
     border-radius: 6px;
     font-weight: 500;
