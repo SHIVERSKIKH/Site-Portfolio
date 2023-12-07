@@ -27,6 +27,9 @@ a, button {
         background: #3730A3;
         color: #FFFFFF;
     }
+    .slider__dot:hover {
+        background-color: #888;
+    }
     .accordion__item:hover {
         box-shadow: 0 0 15px rgb(189, 189, 189);
         transform: scale(1.009);
