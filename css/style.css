@@ -194,6 +194,7 @@ ul {
     margin-bottom: 25px;
 }
 .description {
+    opacity: 0.8;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -664,19 +665,17 @@ ul {
         padding-top: 0;
         margin-bottom: 35px;
       }
+      .description {
+        padding: 10px 0 10px;
+      }
       .description__title {
-        font-size: 17px;
-        line-height: 16px;
-        margin: 12px 0 10px 0;
+        display: none;
       }
       .description a {
-        font-size: 15px;
+        font-size: 16px;
       }
       .project-img {
         height: 243px;
-      }
-      .slider__wrapper {
-        display: none;
       }
 }
 

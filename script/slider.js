@@ -2,7 +2,9 @@ const sliderImagesWrp = document.querySelectorAll(".slider__image-wrapper"),
   sliderLine = document.querySelector(".slider__line"), // slier было
   sliderDots = document.querySelectorAll(".slider__dot"),
   sliderBtnNext = document.querySelector(".slider__btn-next"),
+  description = document.querySelectorAll('.description');
   sliderBtnPrev = document.querySelector(".slider__btn-prev");
+  
 
 let sliderCount = 0,
   sliderWidth;
@@ -26,6 +28,7 @@ function showSlide() {
   //     (item) => (item.computedStyleMap.width = sliderWidth + "px") исправил
   //   );
   sliderImagesWrp.forEach((item) => (item.style.width = sliderWidth + "px"));
+  description.forEach((item) => (item.style.width = sliderWidth + "px"));
   rollSlider();
 }
 showSlide();
