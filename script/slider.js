@@ -1,5 +1,5 @@
 const sliderImagesWrp = document.querySelectorAll(".slider__image-wrapper"),
-  sliderLine = document.querySelector(".slider__line"), // slier было
+  sliderLine = document.querySelector(".slider__line"),
   sliderDots = document.querySelectorAll(".slider__dot"),
   sliderBtnNext = document.querySelector(".slider__btn-next"),
   description = document.querySelectorAll('.description');
@@ -9,24 +9,33 @@ const sliderImagesWrp = document.querySelectorAll(".slider__image-wrapper"),
 let sliderCount = 0,
   sliderWidth;
 
+let sliderInterval;
+function StartInterval() {
+  sliderInterval = setInterval(() => {
+    nextSlide();
+  }, 3000);
+}
+
 // Адаптивность
 window.addEventListener("resize", showSlide);
+document.addEventListener('DOMContentLoaded', function() {
+  StartInterval(); 
+});
 
 sliderBtnNext.addEventListener("click", nextSlide);
 sliderBtnPrev.addEventListener("click", prevSlide);
 
-setInterval(() => {
-  nextSlide();
-}, 3000);
 
+
+function stopSliderInterval() {
+  clearInterval(sliderInterval); // Остановить интервал для автоматического перелистывания
+}
 //Функция задает нужную ширину картинки
 function showSlide() {
   sliderWidth = document.querySelector(".slider").offsetWidth;
-  //   sliderLine.computedStyleMap.width = sliderWidth * sliderImages.length + "px"; исправил
+
   sliderLine.style.width = sliderWidth * sliderImagesWrp.length + "px";
-  //   sliderImages.forEach(
-  //     (item) => (item.computedStyleMap.width = sliderWidth + "px") исправил
-  //   );
+
   sliderImagesWrp.forEach((item) => (item.style.width = sliderWidth + "px"));
   description.forEach((item) => (item.style.width = sliderWidth + "px"));
   rollSlider();
@@ -38,6 +47,8 @@ function nextSlide() {
   if (sliderCount >= sliderImagesWrp.length) sliderCount = 0;
   rollSlider();
   thisSlide(sliderCount);
+  stopSliderInterval();
+  StartInterval(); 
 }
 
 function prevSlide() {
