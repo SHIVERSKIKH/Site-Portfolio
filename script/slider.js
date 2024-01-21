@@ -57,6 +57,8 @@ function prevSlide() {
 
   rollSlider();
   thisSlide(sliderCount);
+  stopSliderInterval();
+  StartInterval(); 
 }
 
 function rollSlider() {
