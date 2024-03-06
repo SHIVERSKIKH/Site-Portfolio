@@ -144,7 +144,7 @@ ul {
     max-width: 525px;
     width: 100%;
     border-radius: 19px;
-    box-shadow: rgb(235 237 241) 0px -2px 20px 2px;
+    box-shadow: rgb(235 237 241) 0px -2px 8px 2px;
 }
 .main-hard__skills-wrp {
     background: #f6f6f6;
@@ -534,7 +534,7 @@ ul {
     }
     .burger-menu-label {
         display: flex;
-        width: 36px;
+        width: 45px;
         height: 26px;
         align-items: center;
         position: relative;
